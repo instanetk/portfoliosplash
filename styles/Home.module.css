@@ -1,10 +1,9 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* .container {
+  @apply min-h-screen flex flex-col justify-center align-middle bg-red-900;
+} */
+
+.h1 {
+  @apply text-purple-400 text-6xl;
 }
 
 .main {
@@ -19,7 +18,7 @@
 .footer {
   width: 100%;
   height: 100px;
-  border-top: 1px solid #eaeaea;
+  /* border-top: 1px solid #eaeaea; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,8 +66,8 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace;
 }
 
 .grid {
