@@ -5,11 +5,12 @@ import Particles from 'react-tsparticles';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="h-screen flex-col content-center">
       <Head>
         <title>davidquintero.dev portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Particles
         id="tsparticles"
         options={{
@@ -30,7 +31,7 @@ export default function Home() {
                 enable: true,
                 mode: 'repulse',
               },
-              resize: true,
+              resize: false,
             },
             modes: {
               bubble: {
@@ -56,7 +57,7 @@ export default function Home() {
               color: '#ffffff',
               distance: 150,
               enable: true,
-              opacity: 0.5,
+              opacity: 0.1,
               width: 1,
             },
             collisions: {
@@ -78,25 +79,32 @@ export default function Home() {
               value: 80,
             },
             opacity: {
-              value: 0.5,
+              value: 0.1,
             },
             shape: {
               type: 'circle',
             },
             size: {
-              random: false,
+              random: true,
               value: 1,
             },
           },
           detectRetina: true,
         }}
       />
-      <main className={styles.main}>
-        <h1 className="text-white select-none">
-          david<span className="font-bold">quintero</span>
-        </h1>
-      </main>
-
+      <nav className="flex justify-between object-center align-middle py-1 bg-transparent">
+        <div>
+          <h1 className="text-white select-none px-4">
+            david<span className="font-bold">quintero</span>
+          </h1>
+        </div>
+        <div className="flex text-white bolder">
+          <h2 className="px-4">Projects</h2>
+          <h2 className="px-4">Blog</h2>
+          <h2 className="px-4">Essays</h2>
+          <h2 className="px-4">Feed</h2>
+        </div>
+      </nav>
       <footer className={styles.footer}></footer>
     </div>
   );
