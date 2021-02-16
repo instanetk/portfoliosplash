@@ -5,7 +5,7 @@ import Particles from 'react-tsparticles';
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="flex flex-wrap content-center justify-center h-screen">
       <Head>
         <title>David Quintero - DEV</title>
         <link rel="icon" href="/favicon.ico" />
@@ -92,7 +92,7 @@ export default function Home() {
           detectRetina: true,
         }}
       />
-      <nav className="justify-between object-center align-middle py-1 bg-transparent hidden">
+      <nav className="justify-between object-center align-middle py-1 hidden">
         <div>
           <h1 className="text-white select-none px-4">
             david<span className="font-bold">quintero</span>
@@ -106,11 +106,12 @@ export default function Home() {
         </div>
       </nav>
       <main className="">
-        <div className="flex flex-wrap content-center justify-center h-screen">
+        <div className="">
           <h1 className="text-white select-none px-4 text-5xl leading-18">
             Nice to meet you, my name is David.
-            <br /> Let's get to work!
+            <br /> Let's get to work! <br />
           </h1>
+          <p className="text-white w-full text-center mt-10 text-sm uppercase">v1.0 coming up ...</p>
         </div>
       </main>
 
