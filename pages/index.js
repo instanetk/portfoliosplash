@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-wrap content-center justify-center h-screen">
       <Head>
         <title>David Quintero - DEV</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/yin-yang3.svg" />
       </Head>
 
       <Particles
@@ -111,7 +111,7 @@ export default function Home() {
             Nice to meet you, my name is David.
             <br /> Let's get to work! <br />
           </h1>
-          <p className="text-white w-full text-center mt-10 text-sm uppercase">v1.0 coming up ...</p>
+          <p className="text-white w-full text-center mt-10 text-xs uppercase">v1.0 coming up ...</p>
         </div>
       </main>
 
