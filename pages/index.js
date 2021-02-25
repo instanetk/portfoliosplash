@@ -1,4 +1,3 @@
-import react, { useEffect } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Particles from 'react-tsparticles';
@@ -7,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-wrap content-center justify-center h-screen">
       <Head>
-        <title>David Quintero - DEV</title>
+        <title>David Quintero - Web Developer, Orlando, FL</title>
         <link rel="icon" href="/yin-yang3.svg" />
       </Head>
 
